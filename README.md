@@ -8,7 +8,7 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 <img src="https://readme-typing-svg.demolab.com?font=DM+Mono&amp;size=16&amp;duration=3200&amp;pause=1100&amp;color=A7F3E8&amp;center=true&amp;vCenter=true&amp;width=440&amp;height=28&amp;lines=Creative+technology;Spatial+software;Ideas+in+shared+spaces" alt="Creative technology · spatial software · ideas in shared spaces" />
 
-[![GitHub](https://img.shields.io/badge/GitHub-follow-111827?style=flat-square&logo=github&logoColor=white)](https://github.com)
+[![GitHub](https://img.shields.io/badge/GitHub-follow-111827?style=flat-square&logo=github&logoColor=white)](https://github.com/flushloll)
 &nbsp; [![Projects](https://img.shields.io/badge/Projects-in%20progress-7c3aed?style=flat-square&logoColor=white)](#selected-projects)
 
 </div>
@@ -17,28 +17,25 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 ## What I’m making
 
-### ◉ Groups · spatial conversations
+### ◉ [Groups](https://github.com/flushloll/groups.) · spatial conversations
 
-A voice-first, shared 3D workspace where people talk through an idea, shape it together, and branch into new rooms of possibility.
+A shared 3D world where friends talk, explore as avatars, and shape rooms together with Luna, the built-in AI assistant.
 
-`Three.js` &nbsp; `React` &nbsp; `TypeScript` &nbsp; `WebRTC` &nbsp; `WebSockets`
-
-<!--
-Add the public repository URL when Groups is published:
-[Explore Groups](https://github.com/YOUR_GITHUB_USERNAME/YOUR_GROUPS_REPO)
--->
+`React Three Fiber` &nbsp; `TypeScript` &nbsp; `Rapier` &nbsp; `Node.js` &nbsp; `PostgreSQL`
 
 ## Selected projects
 
-<!--
-New project? Duplicate this row and fill in the name, one-line purpose, and stack.
-Keep this list curated: feature the work you most want people to discover.
-| [Project name](https://github.com/YOUR_GITHUB_USERNAME/REPO) | One clear sentence about what it does. | `Stack` · `Here` |
--->
+<!-- Add a project by duplicating a row. Keep the description to one clear sentence. -->
 
 | Project | What it does | Built with |
 |:--|:--|:--|
-| **Groups** · *in progress* | A shared spatial canvas for conversations and ideas. | `Three.js` · `React` · `TypeScript` |
+| [Groups](https://github.com/flushloll/groups.) | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
+| [MIST](https://github.com/flushloll/MIST) | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Go` · `Raspberry Pi` |
+| [Cluck N' Cook](https://github.com/flushloll/Cluck-N-Cook) | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
+| [Fallout Business Badge](https://github.com/flushloll/fallout_business_badge) | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
+| [Daydream 2025](https://github.com/flushloll/Daydream-2025-new) ([earlier version](https://github.com/flushloll/Daydream-2025)) | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
+| [Computer Vision Experiments](https://github.com/flushloll/computer_vision_experiments) | Detects a sheet of paper in a photo and corrects its perspective. | `Python` · `OpenCV` |
+| [Vending Machine](https://github.com/flushloll/vendingMachine) | A fundraising vending-machine project, with a focus on microcontroller firmware. | `Embedded` |
 
 ## Current toolkit
 
