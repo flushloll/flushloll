@@ -6,6 +6,8 @@
 
 I’m **Esia** — exploring the space where thoughtful software, creative technology, and human connection meet.
 
+<img src="https://readme-typing-svg.demolab.com?font=DM+Mono&amp;size=16&amp;duration=3200&amp;pause=1100&amp;color=A7F3E8&amp;center=true&amp;vCenter=true&amp;width=440&amp;height=28&amp;lines=Creative+technology;Spatial+software;Ideas+in+shared+spaces" alt="Creative technology · spatial software · ideas in shared spaces" />
+
 [![GitHub](https://img.shields.io/badge/GitHub-follow-111827?style=flat-square&logo=github&logoColor=white)](https://github.com)
 &nbsp; [![Projects](https://img.shields.io/badge/Projects-in%20progress-7c3aed?style=flat-square&logoColor=white)](#selected-projects)
 
