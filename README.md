@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-space.png" alt="Esia — systems, robotics, engineering" width="100%" />
+<img src="./assets/hero-space.webp" alt="Esia — systems, robotics, engineering" width="100%" />
 
 </div>
 
