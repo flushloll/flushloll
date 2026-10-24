@@ -19,7 +19,7 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 <table>
   <tr>
-    <td colspan="2" width="66%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups.png" width="100%" alt="Groups opening screen and shared 3D room" title="Groups: a shared 3D world for conversation, exploration, and AI-assisted building." /></a></td>
+    <td colspan="2" width="66%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups-world.png" width="100%" alt="An active Groups world with an avatar, shared workspace, and Luna assistant" title="Groups: explore and shape a shared 3D world with Luna, the built-in AI assistant." /></a></td>
     <td width="34%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/mist.gif" width="100%" alt="MIST rice-cooker robot walking, framed in coral" title="MIST: a rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a></td>
   </tr>
   <tr>
