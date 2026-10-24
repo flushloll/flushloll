@@ -20,8 +20,8 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 <table>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/reveal/mist.webp" width="100%" alt="MIST rice-cooker robot walking" title="MIST: a rice-cooker robot built with Creo CAD, Raspberry Pi, and Go." /></a></td>
-    <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/reveal/cluck-n-cook.webp" width="100%" alt="Cluck N' Cook gameplay from the Hack Club showreel" title="Cluck N' Cook: a wave-based cartoon shooter made with Godot." /></a></td>
-    <td width="34%"><a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/reveal/matetra.webp" width="100%" alt="Matetra multiplayer math game" title="Matetra: a multiplayer math game with Go and Godot clients." /></a></td>
+    <td width="33%"><a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/reveal/matetra.webp" width="100%" alt="Matetra multiplayer math game" title="Matetra: a multiplayer math game with Go and Godot clients." /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/reveal/cluck-n-cook.webp" width="100%" alt="Cluck N' Cook gameplay from the Hack Club showreel" title="Cluck N' Cook: a wave-based cartoon shooter made with Godot." /></a></td>
   </tr>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/reveal/groups.webp" width="100%" alt="Groups Neon City world with glowing towers, a car, and an avatar" title="Groups: explore and shape a shared 3D world with Luna, the built-in AI assistant." /></a></td>
@@ -47,7 +47,7 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 
 ## Selected projects
 
-<!-- Sort by rating, then keep the row, reel tile, and title hue in the same red-to-violet order. -->
+<!-- Reel grouping algorithm: start from the rating-derived red-to-violet hue order; pull projects that share tools next to each other when that causes only a small hue change (Go/Godot, embedded hardware, Python). Keep this list rating-descending; title and card colors use the same palette, with same-rated projects sharing nearby hues. -->
 
 | Project | What it does | Built with |
 |:--|:--|:--|

@@ -14,21 +14,21 @@ TOOL_ICONS = ROOT.parent / "tools"
 MAX_SIZE = (320, 420)
 FADE_STEPS = 12
 GAP_MS = 120
-CARD_AFTER_REVEAL_MS = 15000
+CARD_AFTER_REVEAL_MS = 9000
 CARD_FADE_STEPS = 12
 
 # Ordered by rating, then by a red-to-violet progression around the color wheel.
 # Fade duration and the gap after each fade both shrink, like a bouncing ball.
 ITEMS = [
-    ("mist", "mist-project.gif", 1300, "#F47B72", ("creo", "raspberrypi", "go")),
-    ("cluck-n-cook", "cluck-n-cook.gif", 1200, "#F39A5F", ("godotengine",)),
-    ("matetra", "names/matetra.svg", 1100, "#F4C464", ("go", "godotengine")),
-    ("groups", "groups-neon-city.png", 1000, "#D5D968", ("react", "threedotjs", "typescript")),
-    ("soup-hopper", "soup-hopper.gif", 900, "#A5D77A", ("arduino", "espressif", "python")),
-    ("fallout-business-badge", "fallout-business-badge-first.png", 800, "#7BD29B", ("kicad", "espressif", "adafruit")),
-    ("slidex", "slidex.svg", 700, "#67C8B5", ("python", "openai")),
-    ("computer-vision", "computer-vision-reel-v3.gif", 600, "#6DBDDB", ("python", "opencv")),
-    ("daydream-2025", "daydream-2025.svg", 500, "#A38CE8", ("godotengine",)),
+    ("mist", "mist-project.gif", 1300, "#F47B72", ("creo", "raspberrypi", "go"), 2),
+    ("matetra", "names/matetra.svg", 1200, "#F39F65", ("go", "godotengine"), 1),
+    ("cluck-n-cook", "cluck-n-cook.gif", 1100, "#F39F65", ("godotengine",), 2),
+    ("groups", "groups-neon-city.png", 1000, "#D5D968", ("react", "threedotjs", "typescript"), 1),
+    ("soup-hopper", "soup-hopper.gif", 900, "#A5D77A", ("arduino", "espressif", "python"), 2),
+    ("fallout-business-badge", "fallout-business-badge-first.png", 800, "#7BD29B", ("kicad", "espressif", "adafruit"), 1),
+    ("slidex", "slidex.svg", 700, "#67C8B5", ("python", "openai"), 1),
+    ("computer-vision", "computer-vision-reel-v3.gif", 600, "#6DBDDB", ("python", "opencv"), 1),
+    ("daydream-2025", "daydream-2025.svg", 500, "#A38CE8", ("godotengine",), 1),
 ]
 
 
@@ -60,11 +60,13 @@ def load_frames(source: Path, name: str) -> tuple[list[Image.Image], list[int]]:
     frames = [ImageOps.pad(frame, size, method=Image.Resampling.LANCZOS, color=(0, 0, 0, 0)) for frame in frames]
 
     if name == "mist":
-        speed = 80
+        speed = 200
     elif name == "soup-hopper":
-        speed = 100
+        speed = 200
     elif name == "cluck-n-cook":
-        speed = 75
+        speed = 125
+    elif name == "computer-vision":
+        speed = 180
     else:
         speed = 350
     durations = [speed] * len(frames)
@@ -111,7 +113,7 @@ def skill_card(size: tuple[int, int], color: str, tools: tuple[str, ...]) -> Ima
     return image
 
 
-def make_reveal(name: str, source: str, start_ms: int, fade_ms: int, color: str, tools: tuple[str, ...]) -> None:
+def make_reveal(name: str, source: str, start_ms: int, fade_ms: int, color: str, tools: tuple[str, ...], max_loops: int) -> None:
     sources, source_durations = load_frames(ROOT / source, name)
     base = sources[0]
     frames: list[Image.Image] = []
@@ -125,19 +127,23 @@ def make_reveal(name: str, source: str, start_ms: int, fade_ms: int, color: str,
         frames.append(frame)
         durations.append(frame_ms)
 
-    # Keep every reel active until its card transition starts at the same offset
-    # from its reveal. Short clips repeat; stills remain on screen for that interval.
+    # Card transitions share one offset, preserving the reveal order and spacing.
+    # Short clips repeat at most twice; any remaining time holds the last clip frame.
     content_ms = max(0, CARD_AFTER_REVEAL_MS - fade_ms)
     if len(sources) > 1:
         remaining = content_ms
-        while remaining:
-            for source_frame, source_ms in zip(sources[1:] + sources[:1], source_durations[1:] + source_durations[:1]):
+        cycle = list(zip(sources[1:] + sources[:1], source_durations[1:] + source_durations[:1]))
+        for _ in range(max_loops):
+            for source_frame, source_ms in cycle:
                 if not remaining:
                     break
                 frame_ms = min(source_ms, remaining)
                 frames.append(source_frame.copy())
                 durations.append(frame_ms)
                 remaining -= frame_ms
+        if remaining:
+            frames.append(frames[-1].copy())
+            durations.append(remaining)
     else:
         frames.append(base.copy())
         durations.append(content_ms)
@@ -158,8 +164,8 @@ def make_reveal(name: str, source: str, start_ms: int, fade_ms: int, color: str,
 def main() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     start = 0
-    for index, (name, source, fade, color, tools) in enumerate(ITEMS):
-        make_reveal(name, source, start, fade, color, tools)
+    for index, (name, source, fade, color, tools, max_loops) in enumerate(ITEMS):
+        make_reveal(name, source, start, fade, color, tools, max_loops)
         # Each interval contracts as the reveals accelerate.
         start += fade + max(45, GAP_MS - index * 9)
 
