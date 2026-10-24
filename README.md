@@ -19,12 +19,12 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 <table>
   <tr>
-    <td colspan="2" width="66%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups.svg" width="100%" alt="Groups project GIF placeholder" /></a></td>
+    <td colspan="2" width="66%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups.png" width="100%" alt="Groups opening screen and shared 3D room" /></a></td>
     <td width="34%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/mist.gif" width="100%" alt="MIST rice-cooker robot walking, framed in coral" /></a></td>
   </tr>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/cluck-n-cook.svg" width="100%" alt="Cluck N' Cook GIF placeholder" /></a></td>
-    <td width="33%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/fallout-business-badge.svg" width="100%" alt="Fallout Business Badge GIF placeholder" /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/fallout-business-badge.png" width="100%" alt="Fallout Business Badge PCB with NeoPixels and controls" /></a></td>
     <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/daydream-2025.svg" width="100%" alt="Daydream 2025 GIF placeholder" /></a></td>
   </tr>
   <tr>
