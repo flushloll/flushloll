@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/reveal/mist.webp" width="100%" alt="MIST rice-cooker robot walking" title="MIST: a rice-cooker robot built with Creo CAD, Raspberry Pi, and Go." /></a></td>
-    <td width="33%"><a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/reveal/matetra.webp" width="100%" alt="Matetra multiplayer math game" title="Matetra: a multiplayer math game with Go and Godot clients." /></a></td>
+    <td width="33%"><a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/reveal/matetra.webp" width="100%" alt="Matetra's repository ASCII logo" title="Matetra: a multiplayer math game with Go and Godot clients." /></a></td>
     <td width="34%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/reveal/cluck-n-cook.webp" width="100%" alt="Cluck N' Cook gameplay from the Hack Club showreel" title="Cluck N' Cook: a wave-based cartoon shooter made with Godot." /></a></td>
   </tr>
   <tr>

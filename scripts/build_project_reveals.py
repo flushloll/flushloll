@@ -21,7 +21,7 @@ CARD_FADE_STEPS = 12
 # Fade duration and the gap after each fade both shrink, like a bouncing ball.
 ITEMS = [
     ("mist", "mist-project.gif", 1300, "#F47B72", ("creo", "raspberrypi", "go"), 2),
-    ("matetra", "names/matetra.svg", 1200, "#F39F65", ("go", "godotengine"), 1),
+    ("matetra", "matetra-ascii.svg", 1200, "#F39F65", ("go", "godotengine"), 1),
     ("cluck-n-cook", "cluck-n-cook.gif", 1100, "#F39F65", ("godotengine",), 2),
     ("groups", "groups-neon-city.png", 1000, "#D5D968", ("react", "threedotjs", "typescript"), 1),
     ("soup-hopper", "soup-hopper.gif", 900, "#A5D77A", ("arduino", "espressif", "python"), 2),
