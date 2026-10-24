@@ -29,7 +29,8 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
   </tr>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/computer-vision.svg" width="100%" alt="Computer Vision Experiments GIF placeholder" title="Computer Vision Experiments: OpenCV paper detection and perspective correction." /></a></td>
-    <td colspan="2" width="67%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/slidex.svg" width="100%" alt="SlideX GIF placeholder" title="SlideX: builds and updates slide decks live from speech, with a browser display." /></a></td>
+    <td width="33%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/slidex.svg" width="100%" alt="SlideX GIF placeholder" title="SlideX: builds and updates slide decks live from speech, with a browser display." /></a></td>
+    <td width="34%"><a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/soup-hopper.gif" width="100%" alt="Soup Hopper rolling in a prototype test" title="Soup Hopper: a can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a></td>
   </tr>
 </table>
 
@@ -49,7 +50,7 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 
 <!-- Add a project by duplicating a row. Keep the description to one clear sentence. -->
 
-| Project · rating (out of 5) | What it does | Built with |
+| Project | What it does | Built with |
 |:--|:--|:--|
 | <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="20" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a><br />⭐⭐⭐ | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
 | <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="20" alt="SlideX" title="Builds and updates slide decks live from speech, with a browser display." /></a><br />⭐⭐⭐ | Builds and updates slide decks live from speech, with a browser display. | `Python` · `OpenAI Realtime API` · `ESP32` |
@@ -58,6 +59,10 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 | <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="20" alt="Fallout Business Badge" title="ESP32-C3 badge with 36 NeoPixels, two buttons, and a custom PCB." /></a><br />⭐⭐⭐ | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
 | <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/names/daydream-2025.svg" height="20" alt="Daydream 2025" title="A Godot game prototype built for Daydream 2025." /></a><br />⭐ <sup><a href="https://github.com/flushloll/Daydream-2025">earlier version</a></sup> | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
 | <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/names/computer-vision.svg" height="20" alt="Computer Vision Experiments" title="OpenCV experiment that detects a sheet of paper and corrects its perspective." /></a><br />⭐⭐ | Detects a sheet of paper in a photo and corrects its perspective. | `Python` · `OpenCV` |
+| <a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/names/soup-hopper.svg" height="20" alt="Soup Hopper" title="A can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a> | A can-bodied ESP32 robot prototype with motor control and IMU stabilization. | `ESP32-C3` · `MPU-6050` · `Arduino` · `Python` |
+| <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="20" alt="Matetra" title="A multiplayer math game with a Go server and CLI, TUI, and Godot clients." /></a> | A multiplayer math game with a Go server and CLI, TUI, and Godot clients. | `Go` · `Godot` |
+
+<sub>Stars indicate ratings out of five.</sub>
 
 ## Current toolkit
 
