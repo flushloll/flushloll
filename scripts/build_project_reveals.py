@@ -2,28 +2,33 @@
 from __future__ import annotations
 
 import io
-import math
+import re
 from pathlib import Path
 
 import cairosvg
-from PIL import Image, ImageDraw, ImageOps, ImageSequence
+from PIL import Image, ImageDraw, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1] / "assets" / "projects"
 OUTPUT = ROOT / "reveal"
+TOOL_ICONS = ROOT.parent / "tools"
 MAX_SIZE = (320, 420)
 FADE_STEPS = 12
 GAP_MS = 120
+CARD_AFTER_REVEAL_MS = 15000
+CARD_FADE_STEPS = 12
 
-# Reveal times shorten in sequence, like the intervals between ball bounces.
+# Ordered by rating, then by a red-to-violet progression around the color wheel.
+# Fade duration and the gap after each fade both shrink, like a bouncing ball.
 ITEMS = [
-    ("groups", "groups-neon-city.png", 1300, 0, 7500, "#82E8D7", "web"),
-    ("mist", "mist-project.gif", 1220, 3, 0, "#F4A37B", "cad"),
-    ("soup-hopper", "soup-hopper.gif", 1140, 3, 0, "#76C8F5", "cad"),
-    ("cluck-n-cook", "cluck-n-cook.gif", 1060, 3, 0, "#F6B65F", "game"),
-    ("fallout-business-badge", "fallout-business-badge-first.png", 980, 0, 7500, "#B4DE76", "pcb"),
-    ("daydream-2025", "daydream-2025.svg", 900, 0, 7500, "#B69BFF", "game"),
-    ("computer-vision", "computer-vision-reel-v3.gif", 820, 2, 0, "#6CCFE0", "vision"),
-    ("slidex", "slidex.svg", 740, 0, 7500, "#8BBDFF", "audio"),
+    ("mist", "mist-project.gif", 1300, "#F47B72", ("creo", "raspberrypi", "go")),
+    ("cluck-n-cook", "cluck-n-cook.gif", 1200, "#F39A5F", ("godotengine",)),
+    ("matetra", "names/matetra.svg", 1100, "#F4C464", ("go", "godotengine")),
+    ("groups", "groups-neon-city.png", 1000, "#D5D968", ("react", "threedotjs", "typescript")),
+    ("soup-hopper", "soup-hopper.gif", 900, "#A5D77A", ("arduino", "espressif", "python")),
+    ("fallout-business-badge", "fallout-business-badge-first.png", 800, "#7BD29B", ("kicad", "espressif", "adafruit")),
+    ("slidex", "slidex.svg", 700, "#67C8B5", ("python", "openai")),
+    ("computer-vision", "computer-vision-reel-v3.gif", 600, "#6DBDDB", ("python", "opencv")),
+    ("daydream-2025", "daydream-2025.svg", 500, "#A38CE8", ("godotengine",)),
 ]
 
 
@@ -32,7 +37,7 @@ def split_time(total_ms: int, count: int) -> list[int]:
     return [quotient + (i < remainder) for i in range(count)]
 
 
-def load_frames(source: Path, loop_count: int, name: str) -> tuple[list[Image.Image], list[int]]:
+def load_frames(source: Path, name: str) -> tuple[list[Image.Image], list[int]]:
     if source.suffix.lower() == ".svg":
         data = cairosvg.svg2png(url=str(source), output_width=320)
         frame = Image.open(io.BytesIO(data)).convert("RGBA")
@@ -66,83 +71,48 @@ def load_frames(source: Path, loop_count: int, name: str) -> tuple[list[Image.Im
     return frames, durations
 
 
-def skill_card(size: tuple[int, int], color: str, skill: str) -> Image.Image:
+def tool_mark(name: str, max_size: int) -> Image.Image:
+    source = TOOL_ICONS / f"{name}.svg"
+    svg = source.read_bytes()
+    svg = re.sub(rb'fill="currentColor"', b'fill="#151C26"', svg)
+    root = re.search(rb'<svg\b[^>]*>', svg).group(0)
+    if re.search(rb'\bfill="', root):
+        recolored_root = re.sub(rb'\bfill="[^"]*"', b'fill="#151C26"', root, count=1)
+    else:
+        recolored_root = root[:-1] + b' fill="#151C26">'
+    svg = svg.replace(root, recolored_root, 1)
+    match = re.search(rb'viewBox="([\d. -]+)"', svg)
+    _, _, view_width, view_height = map(float, match.group(1).split())
+    ratio = view_width / view_height
+    out_width = max(1, round(max_size * min(ratio, 1)))
+    out_height = max(1, round(max_size * min(1 / ratio, 1)))
+    raster = Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg, output_width=out_width, output_height=out_height))).convert("RGBA")
+    alpha = raster.getchannel("A")
+    mark = Image.new("RGBA", raster.size, (21, 28, 38, 0))
+    mark.putalpha(alpha)
+    return mark
+
+
+def skill_card(size: tuple[int, int], color: str, tools: tuple[str, ...]) -> Image.Image:
     width, height = size
-    factor = 3
-    W, H = width * factor, height * factor
-    scale = min(W, H) * 0.72
-    cx, cy = W / 2, H / 2
-    ink = (21, 28, 38)
-    image = Image.new("RGB", (W, H), color)
+    image = Image.new("RGBA", size, color)
     draw = ImageDraw.Draw(image)
-    stroke = max(5, int(scale * 0.045))
-
-    def xy(x: float, y: float) -> tuple[int, int]:
-        return int(cx + x * scale), int(cy + y * scale)
-
-    def line(points: list[tuple[float, float]], width: int = stroke) -> None:
-        draw.line([xy(x, y) for x, y in points], fill=ink, width=int(width), joint="curve")
-
-    def box(bounds: tuple[float, float, float, float], radius: float = 0, width: int = stroke) -> None:
-        x0, y0, x1, y1 = bounds
-        bounds_px = (int(cx + x0 * scale), int(cy + y0 * scale), int(cx + x1 * scale), int(cy + y1 * scale))
-        if radius:
-            draw.rounded_rectangle(bounds_px, radius=int(radius * scale), outline=ink, width=int(width))
-        else:
-            draw.rectangle(bounds_px, outline=ink, width=int(width))
-
-    def dot(x: float, y: float, r: float = 0.035) -> None:
-        a, b = xy(x - r, y - r)
-        c, d = xy(x + r, y + r)
-        draw.ellipse((a, b, c, d), fill=ink)
-
-    if skill == "cad":
-        top, left, right, mid = (0, -.32), (-.29, -.15), (.29, -.15), (0, .02)
-        low_left, low_right, bottom = (-.29, .19), (.29, .19), (0, .36)
-        line([top, left, mid, right, top])
-        line([left, low_left, bottom, low_right, right])
-        line([mid, bottom])
-    elif skill == "game":
-        box((-.42, -.22, .42, .22), radius=.12)
-        line([(-.25, -.12), (-.25, .12)])
-        line([(-.37, 0), (-.13, 0)])
-        dot(.17, -.08, .045)
-        dot(.31, .08, .045)
-    elif skill == "pcb":
-        box((-.43, -.30, .43, .30), radius=.06)
-        box((-.15, -.13, .15, .13), radius=.025, width=int(stroke * .9))
-        for sx in (-1, 1):
-            for sy in (-1, 1):
-                line([(sx * .15, sy * .08), (sx * .28, sy * .08), (sx * .28, sy * .20), (sx * .35, sy * .20)])
-                dot(sx * .37, sy * .20, .035)
-        line([(-.15, 0), (-.32, 0), (-.32, -.20), (-.38, -.20)])
-        dot(-.41, -.20, .035)
-    elif skill == "vision":
-        box((-.38, -.22, .38, .22), radius=.22)
-        dot(0, 0, .16)
-        dot(0, 0, .055)
-        for x, y in ((-.46, -.30), (.46, -.30), (-.46, .30), (.46, .30)):
-            dot(x, y, .028)
-    elif skill == "web":
-        box((-.43, -.30, .43, .30), radius=.05)
-        line([(-.43, -.17), (.43, -.17)])
-        for x in (-.32, -.23, -.14):
-            dot(x, -.24, .018)
-        box((-.32, -.08, -.08, .20), radius=.02, width=int(stroke * .75))
-        box((.02, -.08, .32, .01), radius=.02, width=int(stroke * .75))
-        box((.02, .08, .32, .20), radius=.02, width=int(stroke * .75))
-    elif skill == "audio":
-        box((-.34, -.30, .34, .06), radius=.04)
-        line([(-.22, -.20), (-.05, -.20), (.07, -.08), (.20, -.20)])
-        heights = (.10, .21, .32, .18, .27, .12, .23, .09)
-        xs = (-.38, -.27, -.16, -.05, .06, .17, .28, .39)
-        for x, h in zip(xs, heights):
-            line([(x, .20 - h / 2), (x, .20 + h / 2)])
-    return image.resize(size, Image.Resampling.LANCZOS).convert("RGBA")
+    count = len(tools)
+    gap = max(8, width // 30)
+    badge = min(88, (width - 24 - gap * (count - 1)) // count, max(54, height // 2))
+    total = count * badge + (count - 1) * gap
+    x = (width - total) // 2
+    y = (height - badge) // 2
+    for tool in tools:
+        draw.rounded_rectangle((x, y, x + badge, y + badge), radius=badge // 2, fill=(249, 250, 248, 238))
+        icon = tool_mark(tool, round(badge * 0.66))
+        image.alpha_composite(icon, (x + (badge - icon.width) // 2, y + (badge - icon.height) // 2))
+        x += badge + gap
+    return image
 
 
-def make_reveal(name: str, source: str, start_ms: int, fade_ms: int, loops: int, hold_ms: int, color: str, skill: str) -> None:
-    sources, source_durations = load_frames(ROOT / source, loops, name)
+def make_reveal(name: str, source: str, start_ms: int, fade_ms: int, color: str, tools: tuple[str, ...]) -> None:
+    sources, source_durations = load_frames(ROOT / source, name)
     base = sources[0]
     frames: list[Image.Image] = []
     durations: list[int] = []
@@ -155,19 +125,26 @@ def make_reveal(name: str, source: str, start_ms: int, fade_ms: int, loops: int,
         frames.append(frame)
         durations.append(frame_ms)
 
+    # Keep every reel active until its card transition starts at the same offset
+    # from its reveal. Short clips repeat; stills remain on screen for that interval.
+    content_ms = max(0, CARD_AFTER_REVEAL_MS - fade_ms)
     if len(sources) > 1:
-        # Repeat the clip as a unit; frame zero is already visible at fade completion.
-        loop_frames = sources * loops
-        loop_times = source_durations * loops
-        frames.extend(loop_frames[1:])
-        durations.extend(loop_times[1:])
+        remaining = content_ms
+        while remaining:
+            for source_frame, source_ms in zip(sources[1:] + sources[:1], source_durations[1:] + source_durations[:1]):
+                if not remaining:
+                    break
+                frame_ms = min(source_ms, remaining)
+                frames.append(source_frame.copy())
+                durations.append(frame_ms)
+                remaining -= frame_ms
     else:
         frames.append(base.copy())
-        durations.append(hold_ms)
+        durations.append(content_ms)
 
-    card = skill_card(base.size, color, skill).convert("RGB")
+    card = skill_card(base.size, color, tools).convert("RGB")
     last = frames[-1].convert("RGB")
-    for alpha, frame_ms in zip(range(1, FADE_STEPS + 1), split_time(1000, FADE_STEPS)):
+    for alpha, frame_ms in zip(range(1, CARD_FADE_STEPS + 1), split_time(fade_ms, CARD_FADE_STEPS)):
         frames.append(Image.blend(last, card, alpha / FADE_STEPS).convert("RGBA"))
         durations.append(frame_ms)
     frames.append(card.convert("RGBA"))
@@ -181,9 +158,10 @@ def make_reveal(name: str, source: str, start_ms: int, fade_ms: int, loops: int,
 def main() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     start = 0
-    for name, source, fade, loops, hold, color, skill in ITEMS:
-        make_reveal(name, source, start, fade, loops, hold, color, skill)
-        start += fade + GAP_MS
+    for index, (name, source, fade, color, tools) in enumerate(ITEMS):
+        make_reveal(name, source, start, fade, color, tools)
+        # Each interval contracts as the reveals accelerate.
+        start += fade + max(45, GAP_MS - index * 9)
 
 
 if __name__ == "__main__":

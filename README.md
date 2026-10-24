@@ -19,18 +19,19 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 <table>
   <tr>
+    <td width="33%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/reveal/mist.webp" width="100%" alt="MIST rice-cooker robot walking" title="MIST: a rice-cooker robot built with Creo CAD, Raspberry Pi, and Go." /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/reveal/cluck-n-cook.webp" width="100%" alt="Cluck N' Cook gameplay from the Hack Club showreel" title="Cluck N' Cook: a wave-based cartoon shooter made with Godot." /></a></td>
+    <td width="34%"><a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/reveal/matetra.webp" width="100%" alt="Matetra multiplayer math game" title="Matetra: a multiplayer math game with Go and Godot clients." /></a></td>
+  </tr>
+  <tr>
     <td width="33%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/reveal/groups.webp" width="100%" alt="Groups Neon City world with glowing towers, a car, and an avatar" title="Groups: explore and shape a shared 3D world with Luna, the built-in AI assistant." /></a></td>
-    <td width="33%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/reveal/mist.webp" width="100%" alt="MIST rice-cooker robot walking" title="MIST: a rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a></td>
-    <td width="34%"><a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/reveal/soup-hopper.webp" width="100%" alt="Soup Hopper rolling in a prototype test" title="Soup Hopper: a can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a></td>
+    <td width="33%"><a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/reveal/soup-hopper.webp" width="100%" alt="Soup Hopper rolling in a prototype test" title="Soup Hopper: an ESP32-C3 robot prototype controlled with Arduino and Python." /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/reveal/fallout-business-badge.webp" width="100%" alt="Front render of the Fallout Business Badge from its project README" title="Fallout Business Badge: an ESP32-C3 badge designed in KiCad with NeoPixels." /></a></td>
   </tr>
   <tr>
-    <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/reveal/cluck-n-cook.webp" width="100%" alt="Cluck N' Cook gameplay from the Hack Club showreel" title="Cluck N' Cook: a wave-based cartoon shooter made for the Shiba Arcade game jam." /></a></td>
-    <td width="33%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/reveal/fallout-business-badge.webp" width="100%" alt="Front render of the Fallout Business Badge from its project README" title="Fallout Business Badge: ESP32-C3, 36 NeoPixels, two buttons, and a custom PCB." /></a></td>
-    <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/reveal/daydream-2025.webp" width="100%" alt="Daydream 2025 reel placeholder graphic" title="Daydream 2025: a Godot game prototype, with links to both repository versions below." /></a></td>
-  </tr>
-  <tr>
-    <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/reveal/computer-vision.webp" width="100%" alt="Number, shape, and checkerboard examples with green detected contours and flattened scans" title="Computer Vision Experiments: outlines contours in number grids, geometric shapes, and checkerboards, then flattens the page perspective." /></a></td>
-    <td colspan="2" width="67%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/reveal/slidex.webp" width="100%" alt="SlideX reel placeholder graphic" title="SlideX: builds and updates slide decks live from speech, with a browser display." /></a></td>
+    <td width="33%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/reveal/slidex.webp" width="100%" alt="SlideX project reel placeholder graphic" title="SlideX: builds and updates slide decks live from speech with Python and OpenAI." /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/reveal/computer-vision.webp" width="100%" alt="Number, shape, and checkerboard examples with green detected contours and flattened scans" title="Computer Vision Experiments: Python and OpenCV contour detection and page flattening." /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/reveal/daydream-2025.webp" width="100%" alt="Daydream 2025 reel placeholder graphic" title="Daydream 2025: a Godot game prototype built for Daydream 2025." /></a></td>
   </tr>
 </table>
 
@@ -46,19 +47,19 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 
 ## Selected projects
 
-<!-- Add a project by duplicating a row. Keep the description to one clear sentence. -->
+<!-- Sort by rating, then keep the row, reel tile, and title hue in the same red-to-violet order. -->
 
 | Project | What it does | Built with |
 |:--|:--|:--|
-| <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="20" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a><br />⭐⭐⭐ | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
-| <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="20" alt="SlideX" title="Builds and updates slide decks live from speech, with a browser display." /></a><br />⭐⭐⭐ | Builds and updates slide decks live from speech, with a browser display. | `Python` · `OpenAI Realtime API` · `ESP32` |
-| <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="20" alt="MIST" title="A rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a><br />⭐⭐⭐⭐⭐ | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Go` · `Raspberry Pi` |
+| <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="20" alt="MIST" title="A rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a><br />⭐⭐⭐⭐⭐ | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Creo` · `Go` · `Raspberry Pi` |
 | <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="20" alt="Cluck N' Cook" title="A wave-based cartoon shooter made for the Shiba Arcade game jam." /></a><br />⭐⭐⭐⭐ | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
+| <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="20" alt="Matetra" title="A multiplayer math game with a Go server and CLI, TUI, and Godot clients." /></a><br />⭐⭐⭐⭐ | A multiplayer math game with a Go server and CLI, TUI, and Godot clients. | `Go` · `Godot` |
+| <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="20" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a><br />⭐⭐⭐ | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
+| <a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/names/soup-hopper.svg" height="20" alt="Soup Hopper" title="A can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a><br />⭐⭐⭐ | A can-bodied ESP32 robot prototype with motor control and IMU stabilization. | `ESP32-C3` · `MPU-6050` · `Arduino` · `Python` |
 | <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="20" alt="Fallout Business Badge" title="ESP32-C3 badge with 36 NeoPixels, two buttons, and a custom PCB." /></a><br />⭐⭐⭐ | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
-| <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/names/daydream-2025.svg" height="20" alt="Daydream 2025" title="A Godot game prototype built for Daydream 2025." /></a><br />⭐ <sup><a href="https://github.com/flushloll/Daydream-2025">earlier version</a></sup> | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
+| <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="20" alt="SlideX" title="Builds and updates slide decks live from speech, with a browser display." /></a><br />⭐⭐⭐ | Builds and updates slide decks live from speech, with a browser display. | `Python` · `OpenAI Realtime API` · `ESP32` |
 | <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/names/computer-vision.svg" height="20" alt="Computer Vision Experiments" title="Outlines contours in number grids, geometric shapes, and checkerboards, then flattens page perspective." /></a><br />⭐⭐ | Outlines contours in number grids, geometric shapes, and checkerboards, then flattens page perspective. | `Python` · `OpenCV` |
-| <a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/names/soup-hopper.svg" height="20" alt="Soup Hopper" title="A can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a> | A can-bodied ESP32 robot prototype with motor control and IMU stabilization. | `ESP32-C3` · `MPU-6050` · `Arduino` · `Python` |
-| <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="20" alt="Matetra" title="A multiplayer math game with a Go server and CLI, TUI, and Godot clients." /></a> | A multiplayer math game with a Go server and CLI, TUI, and Godot clients. | `Go` · `Godot` |
+| <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/names/daydream-2025.svg" height="20" alt="Daydream 2025" title="A Godot game prototype built for Daydream 2025." /></a><br />⭐ | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
 
 <sub>Stars indicate ratings out of five.</sub>
 
