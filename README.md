@@ -29,7 +29,7 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
     <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/daydream-2025.svg" width="100%" alt="Daydream 2025 GIF placeholder" title="Daydream 2025: a Godot game prototype, with links to both repository versions below." /></a></td>
   </tr>
   <tr>
-    <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/computer-vision.gif" width="100%" alt="Computer vision experiments scanning number and shape examples" title="Computer Vision Experiments: OpenCV detects page corners and perspective-corrects a Sudoku number grid and a geometric-shapes worksheet." /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/computer-vision-reel-v2.gif" width="100%" alt="Computer vision experiments scanning number and shape examples" title="Computer Vision Experiments: OpenCV detects page corners and perspective-corrects a Sudoku number grid and a geometric-shapes worksheet." /></a></td>
     <td colspan="2" width="67%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/slidex.svg" width="100%" alt="SlideX GIF placeholder" title="SlideX: builds and updates slide decks live from speech, with a browser display." /></a></td>
   </tr>
 </table>
