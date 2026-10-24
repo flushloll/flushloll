@@ -17,20 +17,20 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 ## Project reel
 
+### In motion
+
+<a href="#selected-projects"><img src="./assets/projects/project-motion-reel.gif" width="100%" alt="Full-width animated reel featuring MIST, Soup Hopper, Cluck N’ Cook, and computer vision experiments" title="Animated project highlights. Open Selected projects below for repository links." /></a>
+
+### Snapshots
+
 <table>
   <tr>
-    <td width="33%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups-neon-city.png" width="100%" alt="Groups Neon City world with glowing towers, a car, and an avatar" title="Groups: explore and shape a shared 3D world with Luna, the built-in AI assistant." /></a></td>
-    <td width="33%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/mist.gif" width="100%" alt="MIST rice-cooker robot walking, framed in coral" title="MIST: a rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a></td>
-    <td width="34%"><a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/soup-hopper.gif" width="100%" alt="Soup Hopper rolling in a prototype test" title="Soup Hopper: a can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a></td>
+    <td width="50%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups-neon-city.png" width="100%" alt="Groups Neon City world with glowing towers, a car, and an avatar" title="Groups: explore and shape a shared 3D world with Luna, the built-in AI assistant." /></a></td>
+    <td width="50%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/fallout-business-badge.png" width="100%" alt="Fallout Business Badge PCB with NeoPixels and controls" title="Fallout Business Badge: ESP32-C3, 36 NeoPixels, two buttons, and a custom PCB." /></a></td>
   </tr>
   <tr>
-    <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/cluck-n-cook.gif" width="100%" alt="Cluck N' Cook gameplay from the Hack Club showreel" title="Cluck N' Cook: a wave-based cartoon shooter made for the Shiba Arcade game jam." /></a></td>
-    <td width="33%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/fallout-business-badge.png" width="100%" alt="Fallout Business Badge PCB with NeoPixels and controls" title="Fallout Business Badge: ESP32-C3, 36 NeoPixels, two buttons, and a custom PCB." /></a></td>
-    <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/daydream-2025.svg" width="100%" alt="Daydream 2025 reel placeholder graphic" title="Daydream 2025: a Godot game prototype, with links to both repository versions below." /></a></td>
-  </tr>
-  <tr>
-    <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/computer-vision-reel-v3.gif" width="100%" alt="Number, geometric shape, and checkerboard images with detected contours, followed by flattened scans" title="Computer Vision Experiments: detects number, geometric, and checkerboard contours, then flattens the page perspective." /></a></td>
-    <td colspan="2" width="67%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/slidex.svg" width="100%" alt="SlideX reel placeholder graphic" title="SlideX: builds and updates slide decks live from speech, with a browser display." /></a></td>
+    <td width="50%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/daydream-2025.svg" width="100%" alt="Daydream 2025 reel placeholder graphic" title="Daydream 2025: a Godot game prototype, with links to both repository versions below." /></a></td>
+    <td width="50%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/slidex.svg" width="100%" alt="SlideX reel placeholder graphic" title="SlideX: builds and updates slide decks live from speech, with a browser display." /></a></td>
   </tr>
 </table>
 
