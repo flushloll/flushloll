@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/reveal/mist.webp" width="100%" alt="MIST rice-cooker robot walking" title="MIST: a rice-cooker robot built with Creo CAD, Raspberry Pi, and Go." /></a></td>
-    <td width="33%"><a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/reveal/matetra.webp" width="100%" alt="Matetra's repository ASCII logo" title="Matetra: a multiplayer math game with Go and Godot clients." /></a></td>
+    <td width="33%"><a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/reveal/matetra.webp" width="100%" alt="Matetra's original centered ASCII logo" title="Matetra: a multiplayer math game with Go and Godot clients." /></a></td>
     <td width="34%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/reveal/cluck-n-cook.webp" width="100%" alt="Cluck N' Cook gameplay from the Hack Club showreel" title="Cluck N' Cook: a wave-based cartoon shooter made with Godot." /></a></td>
   </tr>
   <tr>
@@ -20,9 +20,9 @@
     <td width="34%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/reveal/fallout-business-badge.webp" width="100%" alt="Front render of the Fallout Business Badge from its project README" title="Fallout Business Badge: an ESP32-C3 badge designed in KiCad with NeoPixels." /></a></td>
   </tr>
   <tr>
-    <td width="33%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/reveal/slidex.webp" width="100%" alt="SlideX project reel placeholder graphic" title="SlideX: builds and updates slide decks live from speech with Python and OpenAI." /></a></td>
+    <td width="33%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/reveal/slidex.webp" width="100%" alt="SlideX live browser deck with speech-driven slide creation" title="SlideX: builds and updates slide decks live from speech with Python and OpenAI." /></a></td>
     <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/reveal/computer-vision.webp" width="100%" alt="Number, shape, and checkerboard examples with green detected contours and flattened scans" title="Computer Vision Experiments: Python and OpenCV contour detection and page flattening." /></a></td>
-    <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/reveal/daydream-2025.webp" width="100%" alt="Daydream 2025 reel placeholder graphic" title="Daydream 2025: a Godot game prototype built for Daydream 2025." /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/reveal/daydream-2025.webp" width="100%" alt="Daydream 2025 Godot game scene with its office, character stats, and live money counter" title="Daydream 2025: a Godot game prototype with a live office scene and character stats." /></a></td>
   </tr>
 </table>
 

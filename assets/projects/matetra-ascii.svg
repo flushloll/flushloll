@@ -1,18 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="224" viewBox="0 0 640 224">
-  <defs>
-    <radialGradient id="glow"><stop offset="0" stop-color="#F39F65" stop-opacity="0.17"/><stop offset="1" stop-color="#F39F65" stop-opacity="0"/></radialGradient>
-  </defs>
-  <rect width="640" height="224" rx="18" fill="#080D18"/>
-  <ellipse cx="320" cy="112" rx="290" ry="118" fill="url(#glow)"/>
-  <text x="20" y="46" fill="#F4B078" font-family="DejaVu Sans Mono, monospace" font-size="12.4" font-weight="600" xml:space="preserve">
-    <tspan x="20" dy="0">                         $$\                $$\                        </tspan>
-    <tspan x="20" dy="18">                         $$ |               $$ |                       </tspan>
-    <tspan x="20" dy="18">$$$$$$\$$$$\   $$$$$$\ $$$$$$\    $$$$$$\ $$$$$$\    $$$$$$\  $$$$$$\  </tspan>
-    <tspan x="20" dy="18">$$  _$$  _$$\  \____$$\\_$$  _|  $$  __$$\\_$$  _|  $$  __$$\ \____$$\ </tspan>
-    <tspan x="20" dy="18">$$ / $$ / $$ | $$$$$$$ | $$ |    $$$$$$$$ | $$ |    $$ |  \__|$$$$$$$ |</tspan>
-    <tspan x="20" dy="18">$$ | $$ | $$ |$$  __$$ | $$ |$$\ $$   ____| $$ |$$\ $$ |     $$  __$$ |</tspan>
-    <tspan x="20" dy="18">$$ | $$ | $$ |\$$$$$$$ | \$$$$  |\$$$$$$$\  \$$$$  |$$ |     \$$$$$$$ |</tspan>
-    <tspan x="20" dy="18">\__| \__| \__| \_______|  \____/  \_______|  \____/ \__|      \_______|</tspan>
-    <tspan x="20" dy="18"></tspan>
+  <rect width="640" height="224" rx="18" fill="#0D1117"/>
+  <text x="320" y="44" fill="#E6EDF3" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="500" xml:space="preserve">
+    <tspan x="320" dy="0">                         $$\                $$\                        </tspan>
+    <tspan x="320" dy="19.5">                         $$ |               $$ |                       </tspan>
+    <tspan x="320" dy="19.5">$$$$$$\$$$$\   $$$$$$\ $$$$$$\    $$$$$$\ $$$$$$\    $$$$$$\  $$$$$$\  </tspan>
+    <tspan x="320" dy="19.5">$$  _$$  _$$\  \____$$\\_$$  _|  $$  __$$\\_$$  _|  $$  __$$\ \____$$\ </tspan>
+    <tspan x="320" dy="19.5">$$ / $$ / $$ | $$$$$$$ | $$ |    $$$$$$$$ | $$ |    $$ |  \__|$$$$$$$ |</tspan>
+    <tspan x="320" dy="19.5">$$ | $$ | $$ |$$  __$$ | $$ |$$\ $$   ____| $$ |$$\ $$ |     $$  __$$ |</tspan>
+    <tspan x="320" dy="19.5">$$ | $$ | $$ |\$$$$$$$ | \$$$$  |\$$$$$$$\  \$$$$  |$$ |     \$$$$$$$ |</tspan>
+    <tspan x="320" dy="19.5">\__| \__| \__| \_______|  \____/  \_______|  \____/ \__|      \_______|</tspan>
   </text>
 </svg>

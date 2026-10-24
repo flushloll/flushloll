@@ -26,9 +26,9 @@ ITEMS = [
     ("groups", "groups-neon-city.png", 1000, "#D5D968", ("react", "threedotjs", "typescript"), 1),
     ("soup-hopper", "soup-hopper.gif", 900, "#A5D77A", ("arduino", "espressif", "python"), 2),
     ("fallout-business-badge", "fallout-business-badge-first.png", 800, "#7BD29B", ("kicad", "espressif", "adafruit"), 1),
-    ("slidex", "slidex.svg", 700, "#67C8B5", ("python", "openai"), 1),
+    ("slidex", "slidex-live-demo.gif", 700, "#67C8B5", ("python", "openai"), 1),
     ("computer-vision", "computer-vision-reel-v3.gif", 600, "#6DBDDB", ("python", "opencv"), 1),
-    ("daydream-2025", "daydream-2025.svg", 500, "#A38CE8", ("godotengine",), 1),
+    ("daydream-2025", "daydream-2025.gif", 500, "#A38CE8", ("godotengine",), 1),
 ]
 
 
