@@ -71,6 +71,18 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
   <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
 </p>
 
+## CAD & 3D design
+
+<p>
+  <img src="https://img.shields.io/badge/Onshape-1B5FAA?style=flat-square&logo=onshape&logoColor=white" alt="Onshape" />
+  <img src="https://img.shields.io/badge/PTC%20Creo-CB333B?style=flat-square&logo=ptc&logoColor=white" alt="PTC Creo" />
+  <img src="https://img.shields.io/badge/SOLIDWORKS-E2231A?style=flat-square&logo=solidworks&logoColor=white" alt="SOLIDWORKS" />
+  <img src="https://img.shields.io/badge/Blender-EA7600?style=flat-square&logo=blender&logoColor=white" alt="Blender" />
+  <img src="https://img.shields.io/badge/Fusion%20360-F37021?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion 360" />
+  <img src="https://img.shields.io/badge/AutoCAD-CB333B?style=flat-square&logo=autocad&logoColor=white" alt="AutoCAD" />
+  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad" />
+</p>
+
 <div align="center">
 
 *Good software makes complex things feel like an invitation.*
