@@ -17,20 +17,20 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 ## Project reel
 
-### In motion
-
-<a href="#selected-projects"><img src="./assets/projects/project-motion-reel.gif" width="100%" alt="Full-width animated reel featuring MIST, Soup Hopper, Cluck N’ Cook, and computer vision experiments" title="Animated project highlights. Open Selected projects below for repository links." /></a>
-
-### Snapshots
-
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups-neon-city.png" width="100%" alt="Groups Neon City world with glowing towers, a car, and an avatar" title="Groups: explore and shape a shared 3D world with Luna, the built-in AI assistant." /></a></td>
-    <td width="50%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/fallout-business-badge.png" width="100%" alt="Fallout Business Badge PCB with NeoPixels and controls" title="Fallout Business Badge: ESP32-C3, 36 NeoPixels, two buttons, and a custom PCB." /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups-neon-city.png" width="100%" alt="Groups Neon City world with glowing towers, a car, and an avatar" title="Groups: explore and shape a shared 3D world with Luna, the built-in AI assistant." /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/mist.gif" width="100%" alt="MIST rice-cooker robot walking, framed in coral" title="MIST: a rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a></td>
+    <td width="34%"><a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/soup-hopper.gif" width="100%" alt="Soup Hopper rolling in a prototype test" title="Soup Hopper: a can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/daydream-2025.svg" width="100%" alt="Daydream 2025 reel placeholder graphic" title="Daydream 2025: a Godot game prototype, with links to both repository versions below." /></a></td>
-    <td width="50%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/slidex.svg" width="100%" alt="SlideX reel placeholder graphic" title="SlideX: builds and updates slide decks live from speech, with a browser display." /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/cluck-n-cook.gif" width="100%" alt="Cluck N' Cook gameplay from the Hack Club showreel" title="Cluck N' Cook: a wave-based cartoon shooter made for the Shiba Arcade game jam." /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/fallout-business-badge.png" width="100%" alt="Fallout Business Badge PCB with NeoPixels and controls" title="Fallout Business Badge: ESP32-C3, 36 NeoPixels, two buttons, and a custom PCB." /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/daydream-2025.svg" width="100%" alt="Daydream 2025 reel placeholder graphic" title="Daydream 2025: a Godot game prototype, with links to both repository versions below." /></a></td>
+  </tr>
+  <tr>
+    <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/computer-vision-reel-v4.gif" width="100%" alt="Number grid, geometric shapes, and checkerboard before and after perspective correction" title="Computer Vision Experiments: detects page corners and flattens number grids, geometric worksheets, and checkerboards into clean scans." /></a></td>
+    <td colspan="2" width="67%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/slidex.svg" width="100%" alt="SlideX reel placeholder graphic" title="SlideX: builds and updates slide decks live from speech, with a browser display." /></a></td>
   </tr>
 </table>
 
@@ -56,7 +56,7 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 | <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="20" alt="Cluck N' Cook" title="A wave-based cartoon shooter made for the Shiba Arcade game jam." /></a><br />⭐⭐⭐⭐ | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
 | <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="20" alt="Fallout Business Badge" title="ESP32-C3 badge with 36 NeoPixels, two buttons, and a custom PCB." /></a><br />⭐⭐⭐ | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
 | <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/names/daydream-2025.svg" height="20" alt="Daydream 2025" title="A Godot game prototype built for Daydream 2025." /></a><br />⭐ <sup><a href="https://github.com/flushloll/Daydream-2025">earlier version</a></sup> | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
-| <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/names/computer-vision.svg" height="20" alt="Computer Vision Experiments" title="Outlines contours in number grids, geometric shapes, and checkerboards, then flattens page perspective." /></a><br />⭐⭐ | Outlines contours in number grids, geometric shapes, and checkerboards, then flattens page perspective. | `Python` · `OpenCV` |
+| <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/names/computer-vision.svg" height="20" alt="Computer Vision Experiments" title="Detects page corners and flattens number grids, geometric worksheets, and checkerboards into clean scans." /></a><br />⭐⭐ | Detects page corners and perspective-corrects number-grid, geometric-shape, and checkerboard examples. | `Python` · `OpenCV` |
 | <a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/names/soup-hopper.svg" height="20" alt="Soup Hopper" title="A can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a> | A can-bodied ESP32 robot prototype with motor control and IMU stabilization. | `ESP32-C3` · `MPU-6050` · `Arduino` · `Python` |
 | <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="20" alt="Matetra" title="A multiplayer math game with a Go server and CLI, TUI, and Godot clients." /></a> | A multiplayer math game with a Go server and CLI, TUI, and Godot clients. | `Go` · `Godot` |
 
