@@ -15,6 +15,28 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 ---
 
+## Project reel
+
+<table>
+  <tr>
+    <td colspan="2" width="66%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups.svg" width="100%" alt="Groups project GIF placeholder" /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/MIST"><img src="https://raw.githubusercontent.com/flushloll/MIST/main/assets/IMG_8565.gif" width="100%" alt="MIST rice-cooker robot walking" /></a><br /><sub><b>MIST</b> · project GIF</sub></td>
+  </tr>
+  <tr>
+    <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/cluck-n-cook.svg" width="100%" alt="Cluck N' Cook GIF placeholder" /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/fallout-business-badge.svg" width="100%" alt="Fallout Business Badge GIF placeholder" /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/daydream-2025.svg" width="100%" alt="Daydream 2025 GIF placeholder" /></a></td>
+  </tr>
+  <tr>
+    <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/computer-vision.svg" width="100%" alt="Computer Vision Experiments GIF placeholder" /></a></td>
+    <td colspan="2" width="67%"><a href="https://github.com/flushloll/vendingMachine"><img src="./assets/projects/vending-machine.svg" width="100%" alt="Vending Machine GIF placeholder" /></a></td>
+  </tr>
+</table>
+
+<sub>Project tiles marked “GIF PLACEHOLDER” are ready for real clips as you capture them.</sub>
+
+---
+
 ## What I’m making
 
 ### ◉ [Groups](https://github.com/flushloll/groups.) · spatial conversations
