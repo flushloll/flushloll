@@ -39,7 +39,7 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 ## What I’m making
 
-### ◉ <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a> · spatial conversations
+### ◉ <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="42" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a> · spatial conversations
 
 A shared 3D world where friends talk, explore as avatars, and shape rooms together with Luna, the built-in AI assistant.
 
@@ -51,13 +51,13 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 
 | Project · rating (out of 5) | What it does | Built with |
 |:--|:--|:--|
-| <a href="https://github.com/flushloll/groups."><img src="./assets/projects/ratings/groups.svg" height="24" alt="Groups, 3 out of 5 stars" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a> | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
-| <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/ratings/slidex.svg" height="24" alt="SlideX, 3 out of 5 stars" title="Builds and updates slide decks live from speech, with a browser display." /></a> | Builds and updates slide decks live from speech, with a browser display. | `Python` · `OpenAI Realtime API` · `ESP32` |
-| <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/ratings/mist.svg" height="24" alt="MIST, 5 out of 5 stars" title="A rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a> | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Go` · `Raspberry Pi` |
-| <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/ratings/cluck-n-cook.svg" height="24" alt="Cluck N' Cook, 4 out of 5 stars" title="A wave-based cartoon shooter made for the Shiba Arcade game jam." /></a> | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
-| <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/ratings/fallout-business-badge.svg" height="24" alt="Fallout Business Badge, 3 out of 5 stars" title="ESP32-C3 badge with 36 NeoPixels, two buttons, and a custom PCB." /></a> | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
-| <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/ratings/daydream-2025.svg" height="24" alt="Daydream 2025, 1 out of 5 stars" title="A Godot game prototype built for Daydream 2025." /></a> <sup><a href="https://github.com/flushloll/Daydream-2025">earlier version</a></sup> | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
-| <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/ratings/computer-vision.svg" height="24" alt="Computer Vision Experiments, 2 out of 5 stars" title="OpenCV experiment that detects a sheet of paper and corrects its perspective." /></a> | Detects a sheet of paper in a photo and corrects its perspective. | `Python` · `OpenCV` |
+| <a href="https://github.com/flushloll/groups."><img src="./assets/projects/ratings/groups.svg" height="42" alt="Groups, 3 out of 5 stars" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a> | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
+| <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/ratings/slidex.svg" height="42" alt="SlideX, 3 out of 5 stars" title="Builds and updates slide decks live from speech, with a browser display." /></a> | Builds and updates slide decks live from speech, with a browser display. | `Python` · `OpenAI Realtime API` · `ESP32` |
+| <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/ratings/mist.svg" height="42" alt="MIST, 5 out of 5 stars" title="A rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a> | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Go` · `Raspberry Pi` |
+| <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/ratings/cluck-n-cook.svg" height="42" alt="Cluck N' Cook, 4 out of 5 stars" title="A wave-based cartoon shooter made for the Shiba Arcade game jam." /></a> | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
+| <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/ratings/fallout-business-badge.svg" height="42" alt="Fallout Business Badge, 3 out of 5 stars" title="ESP32-C3 badge with 36 NeoPixels, two buttons, and a custom PCB." /></a> | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
+| <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/ratings/daydream-2025.svg" height="42" alt="Daydream 2025, 1 out of 5 stars" title="A Godot game prototype built for Daydream 2025." /></a> <sup><a href="https://github.com/flushloll/Daydream-2025">earlier version</a></sup> | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
+| <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/ratings/computer-vision.svg" height="42" alt="Computer Vision Experiments, 2 out of 5 stars" title="OpenCV experiment that detects a sheet of paper and corrects its perspective." /></a> | Detects a sheet of paper in a photo and corrects its perspective. | `Python` · `OpenCV` |
 
 ## Current toolkit
 
