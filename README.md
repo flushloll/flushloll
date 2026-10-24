@@ -20,7 +20,7 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 <table>
   <tr>
     <td colspan="2" width="66%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups.svg" width="100%" alt="Groups project GIF placeholder" /></a></td>
-    <td width="34%"><a href="https://github.com/flushloll/MIST"><img src="https://raw.githubusercontent.com/flushloll/MIST/main/assets/IMG_8565.gif" width="100%" alt="MIST rice-cooker robot walking" /></a><br /><sub><b>MIST</b> · project GIF</sub></td>
+    <td width="34%"><a href="https://github.com/flushloll/MIST"><img src="https://raw.githubusercontent.com/flushloll/MIST/main/assets/IMG_8565.gif" width="100%" alt="MIST rice-cooker robot walking" /></a></td>
   </tr>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/cluck-n-cook.svg" width="100%" alt="Cluck N' Cook GIF placeholder" /></a></td>
