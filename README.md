@@ -39,7 +39,7 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 ## What I’m making
 
-### ◉ <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="42" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a> · spatial conversations
+### ◉ <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a> · spatial conversations
 
 A shared 3D world where friends talk, explore as avatars, and shape rooms together with Luna, the built-in AI assistant.
 
