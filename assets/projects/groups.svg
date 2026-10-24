@@ -5,6 +5,7 @@
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#D7D4FF" fill-opacity=".14"/></pattern>
   </defs>
   <rect width="720" height="360" rx="20" fill="url(#bg)"/>
+  <rect x="2" y="2" width="716" height="356" rx="18" stroke="#82E8D7" stroke-width="4"/>
   <rect width="720" height="360" rx="20" fill="url(#dots)"/>
   <circle cx="548" cy="146" r="150" fill="url(#halo)"/>
   <g stroke="#82E8D7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".76"><circle cx="544" cy="150" r="76"/><ellipse cx="544" cy="150" rx="114" ry="42" transform="rotate(-28 544 150)"/><circle cx="642" cy="103" r="6" fill="#82E8D7"/></g>

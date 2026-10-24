@@ -20,7 +20,7 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 <table>
   <tr>
     <td colspan="2" width="66%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/groups.svg" width="100%" alt="Groups project GIF placeholder" /></a></td>
-    <td width="34%"><a href="https://github.com/flushloll/MIST"><img src="https://raw.githubusercontent.com/flushloll/MIST/main/assets/IMG_8565.gif" width="100%" alt="MIST rice-cooker robot walking" /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/MIST"><img src="./assets/projects/mist.gif" width="100%" alt="MIST rice-cooker robot walking, framed in coral" /></a></td>
   </tr>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/cluck-n-cook.svg" width="100%" alt="Cluck N' Cook GIF placeholder" /></a></td>
@@ -39,7 +39,7 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
 
 ## What I’m making
 
-### ◉ [Groups](https://github.com/flushloll/groups.) · spatial conversations
+### ◉ <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" /></a> · spatial conversations
 
 A shared 3D world where friends talk, explore as avatars, and shape rooms together with Luna, the built-in AI assistant.
 
@@ -51,13 +51,13 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 
 | Project | What it does | Built with |
 |:--|:--|:--|
-| [Groups](https://github.com/flushloll/groups.) | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
-| [MIST](https://github.com/flushloll/MIST) | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Go` · `Raspberry Pi` |
-| [Cluck N' Cook](https://github.com/flushloll/Cluck-N-Cook) | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
-| [Fallout Business Badge](https://github.com/flushloll/fallout_business_badge) | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
-| [Daydream 2025](https://github.com/flushloll/Daydream-2025-new) ([earlier version](https://github.com/flushloll/Daydream-2025)) | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
-| [Computer Vision Experiments](https://github.com/flushloll/computer_vision_experiments) | Detects a sheet of paper in a photo and corrects its perspective. | `Python` · `OpenCV` |
-| [Vending Machine](https://github.com/flushloll/vendingMachine) | A fundraising vending-machine project, with a focus on microcontroller firmware. | `Embedded` |
+| <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="20" alt="Groups" /></a> | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
+| <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="20" alt="MIST" /></a> | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Go` · `Raspberry Pi` |
+| <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="20" alt="Cluck N' Cook" /></a> | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
+| <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="20" alt="Fallout Business Badge" /></a> | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
+| <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/names/daydream-2025.svg" height="20" alt="Daydream 2025" /></a> <sup><a href="https://github.com/flushloll/Daydream-2025">earlier version</a></sup> | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
+| <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/names/computer-vision.svg" height="20" alt="Computer Vision Experiments" /></a> | Detects a sheet of paper in a photo and corrects its perspective. | `Python` · `OpenCV` |
+| <a href="https://github.com/flushloll/vendingMachine"><img src="./assets/projects/names/vending-machine.svg" height="20" alt="Vending Machine" /></a> | A fundraising vending-machine project, with a focus on microcontroller firmware. | `Embedded` |
 
 ## Current toolkit
 
