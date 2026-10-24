@@ -29,7 +29,8 @@ I’m **Esia** — exploring the space where thoughtful software, creative techn
   </tr>
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/computer-vision.svg" width="100%" alt="Computer Vision Experiments GIF placeholder" /></a></td>
-    <td colspan="2" width="67%"><a href="https://github.com/flushloll/vendingMachine"><img src="./assets/projects/vending-machine.svg" width="100%" alt="Vending Machine GIF placeholder" /></a></td>
+    <td width="33%"><a href="https://github.com/flushloll/vendingMachine"><img src="./assets/projects/vending-machine.svg" width="100%" alt="Vending Machine GIF placeholder" /></a></td>
+    <td width="34%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/slidex.svg" width="100%" alt="SlideX GIF placeholder" /></a></td>
   </tr>
 </table>
 
@@ -52,6 +53,7 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 | Project | What it does | Built with |
 |:--|:--|:--|
 | <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="20" alt="Groups" /></a> | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
+| <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="20" alt="SlideX" /></a> | Builds and updates slide decks live from speech, with a browser display. | `Python` · `OpenAI Realtime API` · `ESP32` |
 | <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="20" alt="MIST" /></a> | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Go` · `Raspberry Pi` |
 | <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="20" alt="Cluck N' Cook" /></a> | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
 | <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="20" alt="Fallout Business Badge" /></a> | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
