@@ -54,6 +54,10 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 
 <sub>Stars indicate ratings out of five.</sub>
 
+## Open source contributions
+
+- [Update the Hermes Agent v3 kits to `0.22.5`](https://github.com/docker/sbx-kits-contrib/pull/422) — updates both kits for the new release and documents its versioning. Pull request open for review.
+
 ## Current toolkit
 
 <p>
