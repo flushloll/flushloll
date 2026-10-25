@@ -52,8 +52,6 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 | <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/names/computer-vision.svg" height="20" alt="Computer Vision Experiments" title="Outlines contours in number grids, geometric shapes, and checkerboards, then flattens page perspective." /></a><br />⭐⭐ | Outlines contours in number grids, geometric shapes, and checkerboards, then flattens page perspective. | `Python` · `OpenCV` |
 | <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/names/daydream-2025.svg" height="20" alt="Daydream 2025" title="A Godot game prototype built for Daydream 2025." /></a><br />⭐ | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
 
-<sub>Stars indicate ratings out of five.</sub>
-
 ## Open source contributions
 
 - [Update the Hermes Agent v3 kits to `0.22.5`](https://github.com/docker/sbx-kits-contrib/pull/422) — updates both kits for the new release and documents its versioning. Pull request open for review.
