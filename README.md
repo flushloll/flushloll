@@ -28,7 +28,7 @@
 
 ---
 
-## What I’m making
+## What I’m working on now:
 
 ### ◉ <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a> · spatial conversations
 
