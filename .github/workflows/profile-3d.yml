@@ -1,0 +1,35 @@
+name: Refresh 3D contribution graph
+
+on:
+  schedule:
+    - cron: "17 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-3d-contributions
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile source
+        uses: actions/checkout@v5
+
+      - name: Generate contribution visuals
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Publish SVGs to dedicated output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output-3d-contrib
+          build_dir: profile-3d-contrib
+          commit_message: "chore: refresh 3D contribution graph"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
