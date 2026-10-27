@@ -28,29 +28,64 @@
 
 ---
 
-## What I’m working on now:
-
-### ◉ <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a> · spatial conversations
-
-A shared 3D world where friends talk, explore as avatars, and shape rooms together with Luna, the built-in AI assistant.
-
-`React Three Fiber` &nbsp; `TypeScript` &nbsp; `Rapier` &nbsp; `Node.js` &nbsp; `PostgreSQL`
-
 ## Selected projects
 
-<!-- Reel grouping algorithm: start from the rating-derived red-to-violet hue order; pull projects that share tools next to each other when that causes only a small hue change (Go/Godot, embedded hardware, Python). Keep this list rating-descending; title and card colors use the same palette, with same-rated projects sharing nearby hues. -->
+A closer look at some of the robotics, software, and game projects behind the reel.
 
-| Project | What it does | Built with |
-|:--|:--|:--|
-| <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="20" alt="MIST" title="A rice-cooker robot with legs, documented with build notes and a hackathon zine." /></a><br />⭐⭐⭐⭐⭐ | A rice-cooker robot with legs, documented with build notes and a hackathon zine. | `Creo` · `Go` · `Raspberry Pi` |
-| <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="20" alt="Cluck N' Cook" title="A wave-based cartoon shooter made for the Shiba Arcade game jam." /></a><br />⭐⭐⭐⭐ | A wave-based cartoon action shooter made for the Shiba Arcade game jam. | `Godot` · `GDScript` |
-| <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="20" alt="Matetra" title="A multiplayer math game with a Go server and CLI, TUI, and Godot clients." /></a><br />⭐⭐⭐⭐ | A multiplayer math game with a Go server and CLI, TUI, and Godot clients. | `Go` · `Godot` |
-| <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="20" alt="Groups" title="A shared 3D world for conversation, exploration, and AI-assisted building." /></a><br />⭐⭐⭐ | A shared 3D world where people talk, explore, and create with an AI assistant. | `React Three Fiber` · `TypeScript` · `Rapier` |
-| <a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/names/soup-hopper.svg" height="20" alt="Soup Hopper" title="A can-bodied ESP32 robot prototype with motor control and IMU stabilization." /></a><br />⭐⭐⭐ | A can-bodied ESP32 robot prototype with motor control and IMU stabilization. | `ESP32-C3` · `MPU-6050` · `Arduino` · `Python` |
-| <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="20" alt="Fallout Business Badge" title="ESP32-C3 badge with 36 NeoPixels, two buttons, and a custom PCB." /></a><br />⭐⭐⭐ | A hackathon badge prototype with 36 NeoPixels, two buttons, and a custom PCB. | `ESP32-C3` · `NeoPixel` · `KiCad` |
-| <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="20" alt="SlideX" title="Builds and updates slide decks live from speech, with a browser display." /></a><br />⭐⭐⭐ | Builds and updates slide decks live from speech, with a browser display. | `Python` · `OpenAI Realtime API` · `ESP32` |
-| <a href="https://github.com/flushloll/computer_vision_experiments"><img src="./assets/projects/names/computer-vision.svg" height="20" alt="Computer Vision Experiments" title="Outlines contours in number grids, geometric shapes, and checkerboards, then flattens page perspective." /></a><br />⭐⭐ | Outlines contours in number grids, geometric shapes, and checkerboards, then flattens page perspective. | `Python` · `OpenCV` |
-| <a href="https://github.com/flushloll/Daydream-2025-new"><img src="./assets/projects/names/daydream-2025.svg" height="20" alt="Daydream 2025" title="A Godot game prototype built for Daydream 2025." /></a><br />⭐ | A Godot game prototype built for Daydream 2025. | `Godot` · `GDScript` |
+<!-- To feature a new project, add one <td> card below; keep two cards per <tr> row. -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="24" alt="MIST" /></a><br />
+      <sub>ROBOTICS / FABRICATION</sub>
+      <p>A legged rice-cooker robot, from Creo CAD and fabrication to Raspberry Pi control.</p>
+      <code>Creo</code> · <code>Go</code> · <code>Raspberry Pi</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" /></a><br />
+      <sub>SPATIAL SOFTWARE / AI</sub>
+      <p>A shared 3D world where people talk, explore as avatars, and shape spaces with an AI assistant.</p>
+      <code>React Three Fiber</code> · <code>TypeScript</code> · <code>Rapier</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="24" alt="Matetra" /></a><br />
+      <sub>MULTIPLAYER / GAME SYSTEMS</sub>
+      <p>A multiplayer mathematics card game with a Go server and CLI, TUI, and Godot clients.</p>
+      <code>Go</code> · <code>Godot</code> · <code>Netcode</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="24" alt="SlideX" /></a><br />
+      <sub>REAL-TIME AI / INTERFACES</sub>
+      <p>Turns live speech into a continually updated presentation in the browser.</p>
+      <code>Python</code> · <code>OpenAI Realtime</code> · <code>ESP32</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="24" alt="Fallout Business Badge" /></a><br />
+      <sub>EMBEDDED HARDWARE / PCB</sub>
+      <p>A custom ESP32-C3 conference badge with 36 NeoPixels, two buttons, and a KiCad PCB.</p>
+      <code>ESP32-C3</code> · <code>KiCad</code> · <code>NeoPixel</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="24" alt="Cluck N' Cook" /></a><br />
+      <sub>INDIE GAME DEVELOPMENT</sub>
+      <p>A playful wave-based Godot game built for the Hack Club Shiba Arcade jam.</p>
+      <code>Godot</code> · <code>GDScript</code>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>More builds and experiments</b></summary>
+
+- [Soup Hopper](https://github.com/umarbektokyo/soup-hopper) — can-bodied ESP32-C3 robot prototype with motor control and IMU feedback. `Arduino` · `Python`
+- [Computer Vision Experiments](https://github.com/flushloll/computer_vision_experiments) — OpenCV contour detection and perspective flattening. `Python` · `OpenCV`
+- [Daydream 2025](https://github.com/flushloll/Daydream-2025-new) — Godot game prototype built for Daydream 2025. `Godot` · `GDScript`
+
+</details>
 
 ## Open source contributions
 
@@ -58,8 +93,7 @@ I contribute fixes and issue reports to tooling I use. The upstream PRs below ar
 
 | Upstream project | Contribution | Status |
 |:--:|:--|:--|
-| <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Update Hermes v3 kits to v0.22.5](https://github.com/docker/sbx-kits-contrib/pull/422) | PR #422 · Open |
-| <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Integrate host-managed Codex OAuth for Hermes](https://github.com/docker/sbx-kits-contrib/pull/423) | PR #423 · Draft |
+| <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Update Hermes v3 kits to v0.22.5](https://github.com/docker/sbx-kits-contrib/pull/422)<br />[Integrate host-managed Codex OAuth for Hermes](https://github.com/docker/sbx-kits-contrib/pull/423) | PR #422 · Open<br />PR #423 · Draft |
 | <a href="https://github.com/NousResearch/hermes-agent"><img src="https://avatars.githubusercontent.com/u/134168893?s=80&v=4" alt="NousResearch / Hermes Agent" width="40" height="40" /></a> | [Report Codex quota errors being mislabeled as missing login](https://github.com/NousResearch/hermes-agent/issues/145351) | Issue #145351 · Open |
 
 ### GitHub contribution landscape
