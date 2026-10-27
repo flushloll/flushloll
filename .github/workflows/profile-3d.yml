@@ -1,4 +1,4 @@
-name: Refresh 3D contribution graph
+name: Refresh GitHub activity overview
 
 on:
   schedule:
@@ -9,32 +9,32 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-3d-contributions
+  group: profile-activity-overview
   cancel-in-progress: false
 
 jobs:
   render:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out profile source
+      - name: Check out profile repository
         uses: actions/checkout@v5
         with:
           persist-credentials: true
 
-      - name: Generate contribution visuals
-        uses: yoshi389111/github-profile-3d-contrib@latest
+      - name: Render light and dark activity overview
+        run: python3 scripts/render_activity.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
 
-      - name: Commit and push generated visuals
+      - name: Commit and push updated activity graphics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- profile-3d-contrib/
+          git add -- assets/contributions/activity-light.svg assets/contributions/activity-dark.svg
           if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh 3D contribution graph"
+            git commit -m "chore: refresh GitHub activity overview"
             git push
           else
-            echo "Contribution visuals are already up to date."
+            echo "Activity graphics are already up to date."
           fi
