@@ -57,18 +57,18 @@ A shared 3D world where friends talk, explore as avatars, and shape rooms togeth
 I contribute fixes and issue reports to tooling I use. The upstream PRs below are pending review, not merged contributions.
 
 | Upstream project | Contribution | Status |
-|:--|:--|:--|
-| [Docker Sandbox kits](https://github.com/docker/sbx-kits-contrib) | [Update Hermes v3 kits to v0.22.5](https://github.com/docker/sbx-kits-contrib/pull/422) | PR #422 · Open |
-| [Docker Sandbox kits](https://github.com/docker/sbx-kits-contrib) | [Integrate host-managed Codex OAuth for Hermes](https://github.com/docker/sbx-kits-contrib/pull/423) | PR #423 · Draft |
-| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | [Report Codex quota errors being mislabeled as missing login](https://github.com/NousResearch/hermes-agent/issues/145351) | Issue #145351 · Open |
+|:--:|:--|:--|
+| <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Update Hermes v3 kits to v0.22.5](https://github.com/docker/sbx-kits-contrib/pull/422) | PR #422 · Open |
+| <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Integrate host-managed Codex OAuth for Hermes](https://github.com/docker/sbx-kits-contrib/pull/423) | PR #423 · Draft |
+| <a href="https://github.com/NousResearch/hermes-agent"><img src="https://avatars.githubusercontent.com/u/134168893?s=80&v=4" alt="NousResearch / Hermes Agent" width="40" height="40" /></a> | [Report Codex quota errors being mislabeled as missing login](https://github.com/NousResearch/hermes-agent/issues/145351) | Issue #145351 · Open |
 
 ### GitHub contribution landscape
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/flushloll/flushloll/output-3d-contrib/profile-night-view.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/flushloll/flushloll/output-3d-contrib/profile-gitblock.svg" />
-    <img src="https://raw.githubusercontent.com/flushloll/flushloll/output-3d-contrib/profile-gitblock.svg" width="100%" alt="3D GitHub contribution activity calendar, refreshed daily" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-gitblock.svg" />
+    <img src="./profile-3d-contrib/profile-gitblock.svg" width="100%" alt="3D GitHub contribution activity calendar, refreshed daily" />
   </picture>
 </p>
 
