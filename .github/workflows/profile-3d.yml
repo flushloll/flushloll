@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Check out profile source
         uses: actions/checkout@v5
+        with:
+          persist-credentials: true
 
       - name: Generate contribution visuals
         uses: yoshi389111/github-profile-3d-contrib@latest
@@ -25,11 +27,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Publish SVGs to dedicated output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output-3d-contrib
-          build_dir: profile-3d-contrib
-          commit_message: "chore: refresh 3D contribution graph"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push generated visuals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- profile-3d-contrib/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh 3D contribution graph"
+            git push
+          else
+            echo "Contribution visuals are already up to date."
+          fi
