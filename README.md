@@ -72,8 +72,6 @@ I contribute fixes and issue reports to tooling I use. The upstream PRs below ar
   </picture>
 </p>
 
-<sub>Automatically refreshed daily with [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib). The chart shows GitHub activity across repositories, not only upstream open-source work.</sub>
-
 ## Current toolkit
 
 <p>
