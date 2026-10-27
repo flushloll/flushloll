@@ -89,8 +89,6 @@
   </picture>
 </p>
 
-<sub>Updated daily from GitHub's contribution data. Counts reflect the activity visible to the workflow token.</sub>
-
 ## Current toolkit
 
 <p>
