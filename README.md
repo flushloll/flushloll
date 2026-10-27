@@ -30,50 +30,35 @@
 
 ## Selected projects
 
-A closer look at some of the robotics, software, and game projects behind the reel.
-
-<!-- To feature a new project, add one <td> card below; keep two cards per <tr> row. -->
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="24" alt="MIST" /></a><br />
-      <sub>ROBOTICS / FABRICATION</sub>
-      <p>A legged rice-cooker robot, from Creo CAD and fabrication to Raspberry Pi control.</p>
-      <code>Creo</code> · <code>Go</code> · <code>Raspberry Pi</code>
+      <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="24" alt="MIST" /></a>
+      <p>A rice cooker that learned to walk.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" /></a><br />
-      <sub>SPATIAL SOFTWARE / AI</sub>
-      <p>A shared 3D world where people talk, explore as avatars, and shape spaces with an AI assistant.</p>
-      <code>React Three Fiber</code> · <code>TypeScript</code> · <code>Rapier</code>
+      <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" /></a>
+      <p>Shared 3D worlds shaped through conversation.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="24" alt="Matetra" /></a><br />
-      <sub>MULTIPLAYER / GAME SYSTEMS</sub>
-      <p>A multiplayer mathematics card game with a Go server and CLI, TUI, and Godot clients.</p>
-      <code>Go</code> · <code>Godot</code> · <code>Netcode</code>
+      <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="24" alt="Matetra" /></a>
+      <p>Math becomes a multiplayer card game.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="24" alt="SlideX" /></a><br />
-      <sub>REAL-TIME AI / INTERFACES</sub>
-      <p>Turns live speech into a continually updated presentation in the browser.</p>
-      <code>Python</code> · <code>OpenAI Realtime</code> · <code>ESP32</code>
+      <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="24" alt="SlideX" /></a>
+      <p>Presentations assembled live from your speech.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="24" alt="Fallout Business Badge" /></a><br />
-      <sub>EMBEDDED HARDWARE / PCB</sub>
-      <p>A custom ESP32-C3 conference badge with 36 NeoPixels, two buttons, and a KiCad PCB.</p>
-      <code>ESP32-C3</code> · <code>KiCad</code> · <code>NeoPixel</code>
+      <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="24" alt="Fallout Business Badge" /></a>
+      <p>An ESP32 badge built for hackers.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="24" alt="Cluck N' Cook" /></a><br />
-      <sub>INDIE GAME DEVELOPMENT</sub>
-      <p>A playful wave-based Godot game built for the Hack Club Shiba Arcade jam.</p>
-      <code>Godot</code> · <code>GDScript</code>
+      <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="24" alt="Cluck N' Cook" /></a>
+      <p>A frantic, chicken-filled arcade shooter.</p>
     </td>
   </tr>
 </table>
@@ -81,28 +66,30 @@ A closer look at some of the robotics, software, and game projects behind the re
 <details>
   <summary><b>More builds and experiments</b></summary>
 
-- [Soup Hopper](https://github.com/umarbektokyo/soup-hopper) — can-bodied ESP32-C3 robot prototype with motor control and IMU feedback. `Arduino` · `Python`
-- [Computer Vision Experiments](https://github.com/flushloll/computer_vision_experiments) — OpenCV contour detection and perspective flattening. `Python` · `OpenCV`
-- [Daydream 2025](https://github.com/flushloll/Daydream-2025-new) — Godot game prototype built for Daydream 2025. `Godot` · `GDScript`
+- [Soup Hopper](https://github.com/umarbektokyo/soup-hopper) — A can-bodied robot prototype.
+- [Computer Vision Experiments](https://github.com/flushloll/computer_vision_experiments) — Exploring perception with OpenCV.
+- [Daydream 2025](https://github.com/flushloll/Daydream-2025-new) — An experimental Godot game.
 
 </details>
 
 ## Open source contributions
 
-| Upstream project | Contribution | Status |
-|:--:|:--|:--|
-| <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Update Hermes v3 kits to v0.22.5](https://github.com/docker/sbx-kits-contrib/pull/422)<br />[Integrate host-managed Codex OAuth for Hermes](https://github.com/docker/sbx-kits-contrib/pull/423) | PR #422 · Open<br />PR #423 · Draft |
-| <a href="https://github.com/NousResearch/hermes-agent"><img src="https://avatars.githubusercontent.com/u/134168893?s=80&v=4" alt="NousResearch / Hermes Agent" width="40" height="40" /></a> | [Report Codex quota errors being mislabeled as missing login](https://github.com/NousResearch/hermes-agent/issues/145351) | Issue #145351 · Open |
+| Upstream project | Contribution |
+|:--:|:--|
+| <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Update Hermes v3 kits to v0.22.5](https://github.com/docker/sbx-kits-contrib/pull/422)<br />[Integrate host-managed Codex OAuth for Hermes](https://github.com/docker/sbx-kits-contrib/pull/423) |
+| <a href="https://github.com/NousResearch/hermes-agent"><img src="./assets/logos/hermes.webp" alt="Hermes Agent" width="40" height="40" /></a> | [Report misleading Codex quota/login error](https://github.com/NousResearch/hermes-agent/issues/145351) |
 
-### GitHub contribution landscape
+### GitHub activity overview
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-gitblock.svg" />
-    <img src="./profile-3d-contrib/profile-gitblock.svg" width="100%" alt="3D GitHub contribution activity calendar, refreshed daily" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contributions/activity-light.svg" />
+    <img src="./assets/contributions/activity-light.svg" alt="GitHub contribution heatmap and activity breakdown, updated daily" width="100%" />
   </picture>
 </p>
+
+<sub>Updated daily from GitHub's contribution data. Counts reflect the activity visible to the workflow token.</sub>
 
 ## Current toolkit
 
