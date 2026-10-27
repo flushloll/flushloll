@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 7 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/render_activity.py"
+      - ".github/workflows/profile-3d.yml"
 
 permissions:
   contents: write
