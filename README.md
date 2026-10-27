@@ -89,8 +89,6 @@ A closer look at some of the robotics, software, and game projects behind the re
 
 ## Open source contributions
 
-I contribute fixes and issue reports to tooling I use. The upstream PRs below are pending review, not merged contributions.
-
 | Upstream project | Contribution | Status |
 |:--:|:--|:--|
 | <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Update Hermes v3 kits to v0.22.5](https://github.com/docker/sbx-kits-contrib/pull/422)<br />[Integrate host-managed Codex OAuth for Hermes](https://github.com/docker/sbx-kits-contrib/pull/423) | PR #422 · Open<br />PR #423 · Draft |
