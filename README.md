@@ -74,10 +74,33 @@
 
 ## Open source contributions
 
-| Upstream project | Contribution |
-|:--:|:--|
-| <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="40" height="40" /></a> | [Update Hermes v3 kits to v0.22.5](https://github.com/docker/sbx-kits-contrib/pull/422)<br />[Integrate host-managed Codex OAuth for Hermes](https://github.com/docker/sbx-kits-contrib/pull/423) |
-| <a href="https://github.com/NousResearch/hermes-agent"><img src="./assets/logos/hermes.webp" alt="Hermes Agent" width="40" height="40" /></a> | [Report misleading Codex quota/login error](https://github.com/NousResearch/hermes-agent/issues/145351) |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="22%" align="center">Upstream project</th>
+      <th width="78%" align="left">Contributions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://github.com/docker/sbx-kits-contrib"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="52" height="52" /></a>
+      </td>
+      <td valign="middle">
+        <p><a href="https://github.com/docker/sbx-kits-contrib/pull/422">Update Hermes v3 kits to v0.22.5</a></p>
+        <p><a href="https://github.com/docker/sbx-kits-contrib/pull/423">Integrate host-managed Codex OAuth for Hermes</a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://github.com/NousResearch/hermes-agent"><img src="./assets/logos/hermes.webp" alt="Hermes Agent" width="52" height="52" /></a>
+      </td>
+      <td valign="middle">
+        <p><a href="https://github.com/NousResearch/hermes-agent/issues/145351">Report misleading Codex quota/login error</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### GitHub activity overview
 
