@@ -104,7 +104,7 @@
         <a href="https://github.com/amosblomqvist/learnharness"><img src="./assets/logos/learnharness.svg" alt="LearnHarness" width="52" height="52" /></a>
       </td>
       <td valign="middle">
-        <p><a href="https://github.com/amosblomqvist/learnharness/pull/557">Fix quiz option brackets rendering as [blocked]</a></p>
+        <p><a href="https://github.com/amosblomqvist/learnharness/pull/557">Fix quiz option brackets rendering as blocked</a></p>
       </td>
     </tr>
   </tbody>
