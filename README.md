@@ -66,6 +66,9 @@
 <details>
   <summary><b>More builds and experiments</b></summary>
 
+- [Learned Optical Sensing](https://github.com/flushloll/learned-optical-sensing) — A camera that only measures what the task needs.
+- [Rebuilding Broken Pottery](https://github.com/flushloll/ceramic-vessel-reconstruction) — A whole pot from a single broken fragment.
+- [FRC 3598 Robot](https://esia.dev/work/frc-3598) — A competition robot for FIRST Robotics Competition team 3598.
 - [Soup Hopper](https://github.com/umarbektokyo/soup-hopper) — A can-bodied robot prototype.
 - [Computer Vision Experiments](https://github.com/flushloll/computer_vision_experiments) — Exploring perception with OpenCV.
 - [Daydream 2025](https://github.com/flushloll/Daydream-2025-new) — An experimental Godot game.
