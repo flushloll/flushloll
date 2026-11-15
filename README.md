@@ -173,6 +173,6 @@
 
 <div align="center">
 
-*Good software makes complex things feel like an invitation.*
+*Computer science is no more about computers than astronomy is about telescopes.*
 
 </div>
