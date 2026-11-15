@@ -17,7 +17,7 @@
   <tr>
     <td width="33%"><a href="https://github.com/flushloll/groups."><img src="./assets/projects/reveal/groups.webp" width="100%" alt="Groups Neon City world with glowing towers, a car, and an avatar" title="Groups: explore and shape a shared 3D world with Luna, the built-in AI assistant." /></a></td>
     <td width="33%"><a href="https://github.com/umarbektokyo/soup-hopper"><img src="./assets/projects/reveal/soup-hopper.webp" width="100%" alt="Soup Hopper rolling in a prototype test" title="Soup Hopper: an ESP32-C3 robot prototype controlled with Arduino and Python." /></a></td>
-    <td width="34%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/reveal/fallout-business-badge.webp" width="100%" alt="Front render of the Fallout Business Badge from its project README" title="Hacker Card: an ESP32-C3 business card designed in KiCad with NeoPixels." /></a></td>
+    <td width="34%"><a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/reveal/fallout-business-badge.webp" width="100%" alt="Front render of the Fallout Business Badge from its project README" title="Fallout Business Badge: an ESP32-C3 badge designed in KiCad with NeoPixels." /></a></td>
   </tr>
   <tr>
     <td width="33%"><a href="https://github.com/adntaha/slidex"><img src="./assets/projects/reveal/slidex.webp" width="100%" alt="SlideX live browser deck with speech-driven slide creation" title="SlideX: builds and updates slide decks live from speech with Python and OpenAI." /></a></td>
@@ -33,50 +33,32 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://esia.dev/work/learned-optical-sensing"><img src="./assets/projects/names/learned-optical-sensing.svg" height="24" alt="Learned Optical Sensing" /></a>
-      <p>A camera that only measures what the task needs.</p>
-      <p><sub><a href="https://esia.dev/work/learned-optical-sensing">Write-up</a> · <a href="https://github.com/flushloll/learned-optical-sensing">Code</a></sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://esia.dev/work/ceramic-vessel-reconstruction"><img src="./assets/projects/names/rebuilding-broken-pottery.svg" height="24" alt="Rebuilding Broken Pottery" /></a>
-      <p>A whole pot from a single broken fragment.</p>
-      <p><sub><a href="https://esia.dev/work/ceramic-vessel-reconstruction">Write-up</a> · <a href="https://github.com/flushloll/ceramic-vessel-reconstruction">Code</a></sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://esia.dev/work/mist"><img src="./assets/projects/names/mist.svg" height="24" alt="MIST" /></a>
+      <a href="https://github.com/flushloll/MIST"><img src="./assets/projects/names/mist.svg" height="24" alt="MIST" /></a>
       <p>A rice cooker that learned to walk.</p>
-      <p><sub><a href="https://esia.dev/work/mist">Write-up</a> · <a href="https://github.com/flushloll/MIST">Code</a></sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://esia.dev/work/frc-3598"><img src="./assets/projects/names/frc-3598-robot.svg" height="24" alt="FRC 3598 Robot" /></a>
-      <p>A competition robot for FIRST Robotics Competition team 3598.</p>
-      <p><sub><a href="https://esia.dev/work/frc-3598">Write-up</a> · <a href="https://www.thebluealliance.com/team/3598">The Blue Alliance</a></sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://esia.dev/work/hacker-card"><img src="./assets/projects/names/hacker-card.svg" height="24" alt="Hacker Card" /></a>
-      <p>A business card that lights up.</p>
-      <p><sub><a href="https://esia.dev/work/hacker-card">Write-up</a> · <a href="https://github.com/flushloll/fallout_business_badge">Code</a></sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://esia.dev/work/matetra"><img src="./assets/projects/names/matetra.svg" height="24" alt="Matetra" /></a>
-      <p>Math becomes a multiplayer card game.</p>
-      <p><sub><a href="https://esia.dev/work/matetra">Write-up</a> · <a href="https://github.com/umarbektokyo/matetra">Code</a></sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://esia.dev/work/cluck-n-cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="24" alt="Cluck N' Cook" /></a>
-      <p>A frantic, chicken-filled arcade shooter.</p>
-      <p><sub><a href="https://esia.dev/work/cluck-n-cook">Write-up</a> · <a href="https://github.com/flushloll/Cluck-N-Cook">Code</a></sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://esia.dev/work/groups"><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" /></a>
+      <a href="https://github.com/flushloll/groups."><img src="./assets/projects/names/groups.svg" height="24" alt="Groups" /></a>
       <p>Shared 3D worlds shaped through conversation.</p>
-      <p><sub><a href="https://esia.dev/work/groups">Write-up</a> · <a href="https://github.com/flushloll/groups.">Code</a></sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/umarbektokyo/matetra"><img src="./assets/projects/names/matetra.svg" height="24" alt="Matetra" /></a>
+      <p>Math becomes a multiplayer card game.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/adntaha/slidex"><img src="./assets/projects/names/slidex.svg" height="24" alt="SlideX" /></a>
+      <p>Presentations assembled live from your speech.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/flushloll/fallout_business_badge"><img src="./assets/projects/names/fallout-business-badge.svg" height="24" alt="Fallout Business Badge" /></a>
+      <p>An ESP32 badge built for hackers.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/flushloll/Cluck-N-Cook"><img src="./assets/projects/names/cluck-n-cook.svg" height="24" alt="Cluck N' Cook" /></a>
+      <p>A frantic, chicken-filled arcade shooter.</p>
     </td>
   </tr>
 </table>
@@ -84,7 +66,6 @@
 <details>
   <summary><b>More builds and experiments</b></summary>
 
-- [SlideX](https://github.com/adntaha/slidex) — Presentations assembled live from your speech.
 - [Soup Hopper](https://github.com/umarbektokyo/soup-hopper) — A can-bodied robot prototype.
 - [Computer Vision Experiments](https://github.com/flushloll/computer_vision_experiments) — Exploring perception with OpenCV.
 - [Daydream 2025](https://github.com/flushloll/Daydream-2025-new) — An experimental Godot game.
