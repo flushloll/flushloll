@@ -138,6 +138,10 @@
   <b>Robotics &amp; embedded</b><br />
   <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad" />
+  <img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
 </p>
 
 <p>
@@ -150,14 +154,12 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
 </p>
 
-
 ## CAD & 3D design
 
 <p>
   <img src="https://img.shields.io/badge/Onshape-1B5FAA?style=flat-square&logo=onshape&logoColor=white" alt="Onshape" />
   <img src="https://img.shields.io/badge/PTC%20Creo-CB333B?style=flat-square&logo=ptc&logoColor=white" alt="PTC Creo" />
   <img src="https://img.shields.io/badge/SOLIDWORKS-E2231A?style=flat-square&logo=solidworks&logoColor=white" alt="SOLIDWORKS" />
-  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad" />
 </p>
 
 <div align="center">
