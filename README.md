@@ -138,7 +138,6 @@
   <b>Robotics &amp; embedded</b><br />
   <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
 <p>
@@ -149,13 +148,10 @@
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Three.js-111111?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
 </p>
 
 <p>
   <b>Tools</b><br />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
@@ -165,9 +161,6 @@
   <img src="https://img.shields.io/badge/Onshape-1B5FAA?style=flat-square&logo=onshape&logoColor=white" alt="Onshape" />
   <img src="https://img.shields.io/badge/PTC%20Creo-CB333B?style=flat-square&logo=ptc&logoColor=white" alt="PTC Creo" />
   <img src="https://img.shields.io/badge/SOLIDWORKS-E2231A?style=flat-square&logo=solidworks&logoColor=white" alt="SOLIDWORKS" />
-  <img src="https://img.shields.io/badge/Blender-EA7600?style=flat-square&logo=blender&logoColor=white" alt="Blender" />
-  <img src="https://img.shields.io/badge/Fusion%20360-F37021?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion 360" />
-  <img src="https://img.shields.io/badge/AutoCAD-CB333B?style=flat-square&logo=autocad&logoColor=white" alt="AutoCAD" />
   <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad" />
 </p>
 
